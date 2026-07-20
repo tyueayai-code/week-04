@@ -11,9 +11,7 @@
    Fix: remove the extra specificity from the first selector.
 */
 
-p.highlight {
-  color: blue;
-}
+
 
 .highlight {
   color: red;
@@ -26,9 +24,6 @@ p.highlight {
    Fix: remove the extra specificity from the first selector.
 */
 
-.card p#special {
-  color: black;
-}
 
 #special {
   color: green;
@@ -50,3 +45,7 @@ p.highlight {
   border-radius: 6px;
   font-size: 1rem;
 }
+
+  button.btn{
+    color : white;
+  }

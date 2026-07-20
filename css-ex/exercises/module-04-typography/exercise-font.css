@@ -11,7 +11,7 @@
 */
 
 .fancy {
-  font-family: "FunkyFont", ;
+  font-family: "FunkyFont",sans-serif ;
 }
 
 
@@ -22,11 +22,11 @@
 */
 
 .thin {
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .bold {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 
@@ -35,3 +35,6 @@
    Open the HTML file and add the correct <link> from Google Fonts
    to load "Roboto" at weights 400 and 700.
 */
+body {
+  font-family: 'Roboto', sans-serif;
+}
