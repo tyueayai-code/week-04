@@ -1,0 +1,57 @@
+body{
+    background-color: #f4f4f4;
+    font-family:Arial,sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    margin:0;
+}
+.card{
+    background-color:#ffffff;
+    border:1px solid#b0b0b0;
+    width:650px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.card h1 {
+    color: #0f172a;
+    font-size: 38px; 
+    font-weight: bold; 
+    margin-top: 0; 
+    margin-bottom: 15px; 
+}
+.desc {
+    color: #1e293b; /* สีตัวหนังสือเทาเข้ม */
+    font-size: 15px; /* ขนาดตัวอักษร */
+    line-height: 1.5; /* ระยะห่างระหว่างบรรทัดให้อ่านง่าย */
+    margin-bottom: 30px; /* เว้นระยะห่างด้านล่างก่อนถึงป้ายเขียว */
+}
+
+/* ตกแต่งกล่องป้ายตัวเลขสีเขียว (.stat-box) */
+.stat-box {
+    background-color: #16a34a; 
+    display: inline-block; 
+    padding: 6px 18px; 
+    border-radius: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 12px; 
+}
+
+
+.stat-box h1 {
+    color: #ffffff !important; 
+    font-size: 40px;
+    margin: 0; 
+    line-height: 1.2; 
+}
+
+
+.sub-desc {
+    color: #1e293b; 
+    font-size: 14px; 
+    font-weight: bold; 
+    line-height: 1.5; 
+    margin-top: 0; 
+    margin-bottom: 25px;
+}
